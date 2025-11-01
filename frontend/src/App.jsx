@@ -1,11 +1,14 @@
 import React from 'react';
 
-export default function App() {
+function App() {
   return (
-    <div style={{ padding: 24 }}>
-      <h1>Multilang-token-Optimizer</h1>
+    <div>
+      <h1>TokenWise</h1>
+      <p>Multilanguage Token & Cost Optimizer</p>
     </div>
-  );
+  )
 }
+
+export default App
 
 
