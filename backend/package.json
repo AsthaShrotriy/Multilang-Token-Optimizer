@@ -9,6 +9,7 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
+    "@aws-sdk/client-bedrock": "^3.922.0",
     "@aws-sdk/client-bedrock-runtime": "^3.922.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
