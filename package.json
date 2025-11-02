@@ -1,0 +1,14 @@
+{
+  "name": "tokenwise",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "postinstall": "npm run install-backend && npm run install-frontend"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
